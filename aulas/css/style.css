@@ -1,0 +1,83 @@
+/* Sintaxe 
+
+Seletor{
+    propriedade: valor
+}
+
+*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+} */
+
+p {
+    color: crimson;
+
+}
+
+h1 {
+    /* Nome da cor: */
+    color: red;
+
+    /* Código da cor: */
+    color: #ff0000;
+
+    /* RGB */
+    color: rgb(255, 0, 0);
+
+    /* RGBA */
+    color: rgba(29, 9, 159, 0.87);
+}
+
+
+p {
+    color: #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+
+    /* muda a especura da fonte */
+    font-weight: 600;
+
+    /* espaçamento da linha */
+    line-height: 100px;
+
+    /* transformando o texto */
+    text-transform: capitalize;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    padding-top: 30px;
+    text-align: center;
+    border: 5px dashed #000;
+    margin: 40px;
+    box-sizing: border-box;
+}
+
+.botao {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px dotted black;
+    color: grey;
+    background-color: lightblue;
+
+}
+
+.botao2 {
+    background-color: #5cfe62;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+
+}
